@@ -284,7 +284,7 @@ These are observations from the reported test runs, not guarantees of performanc
 
 ## 11. Screenshots and Documentation
 
-The `screenshots/` directory should contain evidence of:
+The `screenshots/` directory contains evidence from the D1 test runs:
 
 * Network topology
 * Local UDP recovery test
@@ -294,6 +294,32 @@ The `screenshots/` directory should contain evidence of:
 * Backup-path forwarding rules
 * OpenFlow port-down status
 * UDP client summary
+
+### Screenshot Gallery
+
+#### Mininet connectivity (`pingall`)
+
+![Mininet pingall connectivity](screenshots/mininet_pingall_connectivity.png.png)
+
+#### Local UDP recovery test
+
+![Local UDP recovery test](screenshots/udp_local_recovery_test.png.png)
+
+#### Primary-path forwarding rules
+
+![Primary path flow rules](screenshots/primary_path_flow_rules.png.png)
+
+#### Controller link-failure detection and rerouting
+
+![SDN link failure rerouting](screenshots/sdn_link_failure_rerouting.png.png)
+
+#### Backup-path forwarding rules
+
+![Backup path flow rules](screenshots/backup_path_flow_rules.png.png)
+
+#### UDP client recovery summary
+
+![UDP client recovery summary](screenshots/udp_client_recovery_summary.png.png)
 
 The D1 report is available at:
 
